@@ -5,8 +5,16 @@ body{
     font-family: Arial;
 }
 
+.celular{
+    display: none;
+}
+.pc{
+    width: 100%;
 
-
+}
+.tablet{
+    display: none;
+}
 .col{
     background-color: #FF9B6A;
     margin: 2.5%;
@@ -29,6 +37,17 @@ body{
         margin: 5%;
         background-color: #FF5151;
     }
+    .celular{
+        display: none;
+    }
+    .pc{
+        display: none;
+        
+    }
+    .tablet{
+        width: 100%;
+        display:inline-block;
+    }
 }
   
 
@@ -44,5 +63,16 @@ body{
         width: 98%;
         margin: 1%;
         background-color: #88E0EF;
+    }
+    .celular{
+        display: inline-block;
+        width: 100%;
+    }
+    .pc{
+        display: none;
+        
+    }
+    .tablet{
+        display:none;
     }
 }
