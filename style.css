@@ -1,15 +1,19 @@
 body{
     max-width: 1080px;
     margin: auto;
+    background-color: #88E0EF;
+    font-family: Arial;
 }
 
 
 
 .col{
-    background-color: cadetblue;
+    background-color: #FF9B6A;
     margin: 2.5%;
     width: 20%;
     float: left;
+    border-radius: 10px;
+    text-align: center;
 }
 
 /*SEGUNDO NIVEL */
@@ -17,11 +21,13 @@ body{
 @media screen and (max-width: 800px) {
     body{
         width: 100%;
+        background-color: #161E54;
     }
 
       .col{
         width: 40%;
         margin: 5%;
+        background-color: #FF5151;
     }
 }
   
@@ -31,10 +37,12 @@ body{
 @media screen and (max-width: 360px) {
     body{
         width: 100%;
+        background-color: #FF5151;
     }
 
       .col{
         width: 98%;
         margin: 1%;
+        background-color: #88E0EF;
     }
 }
