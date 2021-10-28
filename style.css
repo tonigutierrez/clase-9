@@ -1,0 +1,40 @@
+body{
+    max-width: 1080px;
+    margin: auto;
+}
+
+
+
+.col{
+    background-color: cadetblue;
+    margin: 2.5%;
+    width: 20%;
+    float: left;
+}
+
+/*SEGUNDO NIVEL */
+
+@media screen and (max-width: 800px) {
+    body{
+        width: 100%;
+    }
+
+      .col{
+        width: 40%;
+        margin: 5%;
+    }
+}
+  
+
+/*TERCER NIVEL*/
+
+@media screen and (max-width: 360px) {
+    body{
+        width: 100%;
+    }
+
+      .col{
+        width: 98%;
+        margin: 1%;
+    }
+}
